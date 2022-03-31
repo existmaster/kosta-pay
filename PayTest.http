@@ -1,0 +1,19 @@
+POST http://localhost:8081/pays
+Content-Type: application/json
+
+{
+  "userId": "HongGilDong",
+  "balance": 50000
+}
+
+###
+
+PUT http://localhost:8081/pays/HongGilDong
+Content-Type: application/json
+
+{
+  "userId": "HongGilDong",
+  "balance": 50000
+}
+
+###
